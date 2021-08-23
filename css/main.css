@@ -393,7 +393,8 @@ img {
   font-size: 4em; }
 
 #section .about-a {
-  height: 100vh; }
+  height: 100vh;
+  margin-bottom: 20px; }
 
 .resume-img {
   height: auto;
@@ -430,7 +431,9 @@ img {
     margin-top: 300px; }
   .item-text-wrap {
     position: absoloute;
-    top: 10%; } }
+    top: 10%; }
+  .resume-img {
+    width: 600px; } }
 
 @media (max-width: 800px) {
   #header-home {
@@ -457,6 +460,11 @@ img {
       padding: 1rem; }
     #main-nav a {
       color: #333; }
+  .resume-img {
+    display: none; }
+  #about-a {
+    margin-bottom: 20px;
+    margin-top: 20p; }
   .item-text-title {
     font-size: 1rem; }
   .item-text-wrap {
