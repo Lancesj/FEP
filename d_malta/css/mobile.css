@@ -73,4 +73,8 @@
     align-items: center;
     height: 78vh;
   }
+  #showcase .showcase-content h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
 }
