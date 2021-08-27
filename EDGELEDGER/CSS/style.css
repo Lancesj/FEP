@@ -36,6 +36,9 @@ img {
   width: 100%;
 }
 /* NavBar */
+.mobile-nav {
+  display: none;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -218,11 +221,18 @@ img {
 }
 
 @media (max-width: 768px) {
+  .main-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: inline;
+  }
   .navbar {
     flex-direction: column;
     height: 120px;
     padding: 20px;
   }
+
   .navbar a {
     padding: 10px 10px;
     margin: 0 3px;
