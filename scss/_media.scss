@@ -1,0 +1,211 @@
+// Tablets & Smaller
+@media (max-width: 1024px) {
+  .header-content h1 {
+    margin-top: 300px;
+  }
+  .resume-img {
+    width: 600px;
+  }
+}
+@media (max-width: 800px) {
+  #header-home {
+    height: 100vh;
+  }
+  .header-content h1 {
+    margin-top: 100px;
+  }
+  #header-home {
+    object-position: 20px 10px;
+  }
+  .item {
+    &-text-title {
+      font-size: 1rem;
+    }
+    &-text-wrap {
+      position: absoloute;
+      top: 10%;
+    }
+    &-text-descrip {
+      font-size: 0.6rem;
+    }
+    &-text-catagory {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+// Smart Phones
+@media (max-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center;
+
+    li {
+      padding: 1rem;
+    }
+    a {
+      color: #333;
+    }
+  }
+  .resume-img {
+    display: none;
+  }
+
+  #about-a {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .item {
+    &-text-title {
+      font-size: 1rem;
+    }
+    &-text-wrap {
+      position: absoloute;
+      top: 10%;
+    }
+    &-text-descrip {
+      font-size: 0.6rem;
+    }
+    &-text-catagory {
+      font-size: 0.7rem;
+    }
+  }
+
+  #header {
+    &-home {
+      height: 100v;
+      border-bottom: 3px solid $main-color;
+      background-position: 90% 60%;
+
+      .header-content h1 {
+        font-size: 2rem;
+      }
+      .header-content p {
+        font-size: 0.6rem;
+      }
+    }
+
+    &-inner {
+      height: 10rem;
+    }
+  }
+  // Stack Grid Clumns
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials,
+  #contact-b .contact-info,
+  .items {
+    grid-template-columns: 1fr;
+  }
+
+  #home {
+    &-a {
+      .specials div {
+        border-bottom: 1px $light-color solid;
+        padding-bottom: 1rem;
+
+        &:last-child {
+          border: none;
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    &-b {
+      .stats div {
+        padding: 2rem 0 1rem 0;
+      }
+    }
+  }
+  // About
+  #about {
+    &-a {
+      .about-info {
+        grid-template-areas:
+          "bioimage"
+          "bio"
+          "aw1"
+          "aw2"
+          "aw3";
+      }
+    }
+    &-c {
+      display: none;
+    }
+  }
+
+  // Contact
+  #contact {
+    &-a {
+      .text-fields {
+        grid-template-areas:
+          "name"
+          "subject"
+          "email"
+          "phone"
+          "message";
+      }
+    }
+    &-b {
+      div {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px #555 solid;
+
+        &:last-child {
+          border: none;
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+    &-c {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+  // Footer
+  #main-footer {
+    height: 7rem;
+
+    .footer-content {
+      flex-direction: column;
+      padding: 1rem;
+      height: 5rem;
+    }
+  }
+}
+
+// landscape
+
+@media (max-height: 580px) {
+  #header-home {
+    .header-content h1,
+    .header-content {
+      margin-top: 0;
+      padding-top: 0;
+    }
+  }
+}
+@media (max-height: 570px) {
+  .header-content h1 {
+    margin-top: 100px !important;
+  }
+}
+
+@media (max-height: 330px) {
+  #header-home {
+    .header-content {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+@media (max-width: 300px) {
+  #main-nav li {
+    padding: 0.5rem;
+  }
+}
