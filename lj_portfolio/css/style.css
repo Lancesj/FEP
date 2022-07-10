@@ -947,7 +947,52 @@ ol {
   background: #212121;
   padding: 11px 13px;
 }
+/* Page Links */
+.page-list {
+  display: flex;
+  list-style: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.page-list li a {
+  border: rgb(201, 201, 201);
+  border-style: solid;
+  border-radius: 10%;
+  height: 0.4rem;
+  width: 0.4rem;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.page-list p {
+  font-size: 1.5rem;
+}
+.page {
+  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  color: rgb(210, 152, 15);
+}
+.page-inbtwn {
+  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  color: rgb(210, 152, 15);
+}
 
+.page:hover {
+  color: #fff;
+  background: rgb(255, 228, 139);
+}
+
+.current {
+  color: rgb(255, 255, 255);
+  background: rgb(255, 228, 139);
+  border-color: rgb(201, 201, 201);
+}
 /* ----------------
   Contact page
 ---------------------*/
@@ -1027,6 +1072,19 @@ ol {
 
 .site-logo-mobile img {
   display: none;
+}
+.active {
+  color: rgb(255, 228, 139);
+}
+
+.active a:visited {
+  color: rgb(200, 173, 85) !important;
+}
+.control a:visited {
+  color: rgb(48, 48, 48);
+}
+.control a:link {
+  color: rgb(48, 48, 48);
 }
 
 /* ----------------

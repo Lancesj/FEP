@@ -1,77 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <title>NewsGrid | About</title>
-</head>
-<body>
-  <nav id="main-nav">
-    <div class="container">
-        <a href="index.html"> <img src="img/logo.png" alt="NewsGrid" class="logo"> </a>
-      <div class="social">
-        <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-        <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="http://youtube.com"   target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-      </div>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a class="current" href="about.html">About</a></li>
-        <li><a href="../index.html">Portfolio</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <section id="about">
-    <div class="container">
-      <div class="page-container">
-        <article class="card">
-          <h1 class="l-heading">About Malta</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore debitis beatae ad doloremque voluptate, blanditiis suscipit error quam fugit sapiente, aliquid quia libero incidunt recusandae enim voluptas nulla sequi similique? Temporibus ad est minima magni molestias obcaecati consequatur cumque exercitationem deleniti eos, animi facere recusandae, pariatur eveniet neque? Voluptatem, molestias.</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae dignissimos dolorum ipsam corporis similique! Quis, esse minus? Ducimus tempore provident sunt officia? Velit temporibus harum voluptate, ipsum quisquam rerum doloremque consectetur quos incidunt deleniti dicta excepturi ratione, fugiat ad fuga in nam dolorum aut minus esse voluptatum suscipit et quae. Repellendus minus, ratione aperiam commodi voluptas iusto aliquam sapiente. Aut obcaecati, corporis praesentium porro nostrum excepturi animi repellendus incidunt non quis nisi assumenda voluptas possimus molestiae laboriosam iure sed architecto in perferendis magnam blanditiis voluptatum placeat labore odio? Unde id dolore aliquam, quas sit harum, saepe maiores facilis aliquid molestiae qui. Praesentium rerum, minima fugit laudantium quaerat voluptatem pariatur sequi saepe blanditiis nobis natus possimus quo, assumenda numquam sit, eaque accusamus incidunt exercitationem quis deleniti quisquam corrupti vel? Ut quisquam consequatur, doloribus voluptatibus iusto quaerat, sint non magnam reiciendis amet quos sapiente excepturi omnis laboriosam nobis, expedita delectus odio provident?</p>
-        </article>
-        <aside class="card bg-primary">
-          <h2>Join Our Club</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, id?</p>
-          <a href="#" class="btn btn-dark btn-block">Join Now</a>
-        </aside>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer id="main-footer" class="py-2">
-    <div class="container footer-container">
-      <div class="newsletter">
-        <h3>Email Newsletter</h3>
-        <p>Enter your email to recive updates & deals on the latest attractions!</p>
-        <form>
-          <input type="email" placeholder="Enter Email...">
-          <input type="submit" value="Subscribe" class="btn btn-primary">
-        </form>
-      </div>
-      <div>
-        <h3>Site Links</h3>
-        <ul class="list">
-          <li><a href="#">Help & Support</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Staatliches"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>NewsGrid | About</title>
+  </head>
+  <body>
+    <nav id="main-nav">
+      <div class="container">
+        <a href="index.html">
+          <img src="img/logo.png" alt="NewsGrid" class="logo" />
+        </a>
+        <div class="social">
+          <a href="http://facebook.com" target="_blank"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="http://twitter.com" target="_blank"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+          <a href="http://instagram.com" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+          <a href="http://youtube.com" target="_blank"
+            ><i class="fab fa-youtube fa-2x"></i
+          ></a>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="current" href="about.html">About</a></li>
+          <li><a href="../index.html">Portfolio</a></li>
         </ul>
       </div>
-      <div>
-        <p>
-          Copyright &copy; 2021, All Rights Reserved
-        </p>
+    </nav>
+
+    <section id="about">
+      <div class="container">
+        <div class="page-container">
+          <article class="card">
+            <h1 class="l-heading">About Malta</h1>
+            <p>
+              Malta, officially known as the Republic of Malta, is an island
+              country in the European Union consisting of an archipelago in
+              the Mediterranean Sea, and considered part of Southern Europe. It
+              lies 80 km (50 mi) south of Sicily (Italy), 284 km (176 mi) east
+              of Tunisia, and 333 km (207 mi) north of Libya. The official
+              languages are Maltese and English, and 66% of the current Maltese
+              population is at least conversational in the Italian language.
+              Malta has been inhabited since approximately 5900 BC. Its location
+              in the centre of the Mediterranean has historically given it great
+              strategic importance as a naval base, with a succession of powers
+              having contested and ruled the islands, including
+              the Phoenicians and Carthaginians, Romans, Greeks, Arabs, Normans,
+              Aragonese, Knights of St. John, French, and British, amongst
+              others. With a population of about 516,000 over an area of
+              316 km2 (122 sq mi), Malta is the world's tenth-smallest country
+              in area and fourth most densely populated sovereign country. Its
+              capital is Valletta, which is the smallest national capital in
+              the European Union by area and population. According to the data
+              from 2020 by Eurostat, the Functional Urban Area and metropolitan
+              region covered the whole island and has a population of 480,134,
+              and according to the United Nations, ESPON and EU Commission, "the
+              whole territory of Malta constitutes a single urban region". Malta
+              increasingly is referred to as a city-state, and also listed in
+              rankings concerning cities or metropolitan areas. Malta is one of
+              the two island countries in the Mediterranean, along with Cyprus.
+              Malta became a British colony in 1813, serving as a way station
+              for ships and the headquarters for the British Mediterranean
+              Fleet. It was besieged by the Axis powers during World War II and
+              was an important Allied base for operations in North Africa and
+              the Mediterranean. The British parliament passed the Malta
+              Independence Act in 1964, giving Malta independence from the
+              United Kingdom as the State of Malta, with Elizabeth II as its
+              queen. The country became a republic in 1974. It has been a member
+              state of the Commonwealth of Nations and the United Nations since
+              independence, and joined the European Union in 2004; it became
+              part of the eurozone monetary union in 2008. Malta has had
+              Christians since the time of Early Christianity, though was
+              predominantly Muslim while under Arab rule, at which time
+              Christians were tolerated. Muslim rule ended with the Norman
+              invasion of Malta by Roger I in 1091. Today, Catholicism is
+              the state religion, but the Constitution of Malta guarantees
+              freedom of conscience and religious worship. The economy of
+              Malta is heavily reliant on tourism, and the country promotes
+              itself as a Mediterranean tourist destination with its warmer
+              climate compared to the rest of Europe, numerous recreational
+              areas, and architectural and historical monuments, including
+              three UNESCO World Heritage Sites: Ħal Saflieni Hypogeum,
+              Valletta, and seven megalithic temples which are some of the
+              oldest free-standing structures in the world.
+            </p>
+          </article>
+          <aside class="card bg-primary">
+            <h2>Join Our Club</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
+              id?
+            </p>
+            <a href="#" class="btn btn-dark btn-block">Join Now</a>
+          </aside>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="py-2">
+      <div class="container footer-container">
+        <div class="newsletter">
+          <h3>Email Newsletter</h3>
+          <p>
+            Enter your email to recive updates & deals on the latest
+            attractions!
+          </p>
+          <form>
+            <input type="email" placeholder="Enter Email..." />
+            <input type="submit" value="Subscribe" class="btn btn-primary" />
+          </form>
+        </div>
+        <div>
+          <h3>Site Links</h3>
+          <ul class="list">
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p>Copyright &copy; 2021, All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
