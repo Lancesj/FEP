@@ -51,7 +51,6 @@ input[class^="btn-"]:hover {
   border: 2px solid #fff;
   padding: 0.5rem;
   color: rgb(147, 147, 147);
-  border-radius: 10px;
   margin: 0.2rem;
   background-color: #eaff00;
   transition: 0.3s ease-in;
@@ -63,7 +62,6 @@ input[class^="btn-"]:hover {
   color: #333;
   background-color: #fff;
   transition: 0.3s ease-in;
-  border-radius: 10px;
   border-color: #eaff00;
 }
 
